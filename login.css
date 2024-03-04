@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'heartless';
+    text-align: right;
+    font-size: 30px;
+    
+   
+    
+}
+.login_Cerdentials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family:'heartless' ;
+
+    align-items: center;
+    height: 300px;
+    font-size: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    border: 2px solid black ;
+}
+
+
+
+input {
+    font-size: 20px;
+    width: 150px;
+    height: 25px;
+    
+}
+body{
+    background-image: url(distressed-and-dirty-red-and-black-background-horror-background-generative-ai-photo.jpg);
+    background-size: cover;
+    
+}
+h1{
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    font-family: 'horror';
+    font-size: 70px;
+    font-stretch: 40px;
+    word-spacing: 5px;
+    text-align: center;
+
+}
+.enter{
+    position: relative;
+    left: 70px;
+    top: none ; 
+    font-family: 'heartless';
+    background-color:rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 15px 12px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 14px 2px;
+    cursor: pointer;
+    justify-content: center;
+    
+
+}
+.pass{
+    position: relative;
+    left: -44px;
+    top: none ; 
+}
+.pass1{
+    position: relative;
+    left: -44px;
+    top: none ; 
+
+}
+@font-face {
+    font-family: 'heartless';
+    src: url('heartless.ttf.ttf') 
+
+}
+@font-face {
+    font-family: 'horror';
+    src: url('horror.ttf') 
+
+}
+@media only screen and (max-width:800px){
+    body{
+        width: 90%;
+        height:90%;
+    }
+    .heading{
+        width: 90%;
+        height:90%;
+
+    }
+    .login_Cerdentials{
+        width: 90%;
+        height:90%;
+
+    }
+    h1{
+        width: 90%;
+        height:90%;
+        
+    }
+    
+}

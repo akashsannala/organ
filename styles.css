@@ -1,0 +1,21 @@
+h1,h2,h6{
+    font-size:60px;
+    position: relative;
+    color: red;
+    font-family: 'glitch';
+    left: 4px;
+    top: 250px;
+
+    text-align: center;
+
+}
+@font-face {
+    font-family: glitch;
+    src: url(Bad\ Coma.ttf);
+}
+body{
+
+    background-image: url('download.png');
+    background-size: top;
+
+}
